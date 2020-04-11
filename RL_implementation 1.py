@@ -15,6 +15,7 @@ import copy
 
 pygame.init()
 
+# Control the speed of the game
 # fps = 100
 
 # Tetris board size
@@ -296,9 +297,9 @@ def game():
             updated_actions = copy.deepcopy(predicted_actions)
             updated_actions[action] = next_q_value
             updated_actions = updated_actions.reshape(1, 5)
-            # print('Most recent action was: ', action)
-            # print('Predictions were: \n', predicted_actions)
-            # print('New predicted actions are: \n', updated_actions)
+            print('Most recent action was: ', action)
+            print('Predictions were: \n', predicted_actions)
+            print('New predicted actions are: \n', updated_actions)
 
             model.fit(state, updated_actions, epochs=1, batch_size=1)
 
