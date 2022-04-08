@@ -1,0 +1,5 @@
+Total games played: 21785
+Total points: -217830
+Total lines cleared: 20
+Current exploration rate: 0.01
+Current step size: 0.005

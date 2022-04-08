@@ -1,0 +1,26 @@
+Starting training session: 1
+Discount factor: 0.95
+Starting exploration rate: 0.5
+Exploration rate decay: 0.997
+Min exploration rate: 0.001
+Starting step size: 0.5
+Step size decay: 0.999
+Min step size: 0.1
+Height cost: True
+Initial height cost weight: 1
+Height cost weight decay: 0.998
+Min height cost weight: 0.1
+Bumpiness cost: True
+Initial bumpiness cost weight: 1
+Bumpiness cost weight decay: 0.998
+Min bumpiness cost weight: 0.1
+Buffer size: 10000
+Number of epochs of training: 10
+Batch size: 100
+Death penalty: -100
+Points multiplier: 10
+Agent architecture: Agent(
+  (fc1): Linear(in_features=16, out_features=256, bias=True)
+  (fc2): Linear(in_features=256, out_features=256, bias=True)
+  (output): Linear(in_features=256, out_features=5, bias=True)
+)

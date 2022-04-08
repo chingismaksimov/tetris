@@ -1,0 +1,7 @@
+Total games played: 74356
+Number of games per training session: 22.87876923076923
+Total points: -7586036
+Total lines cleared: 6521
+Lines cleared per game: 0.08769971488514713
+Current exploration rate: 0.001
+Current step size: 0.1

@@ -1,0 +1,5 @@
+Version 4
+
+- Changed NN optimizer from SGD to RMSProp
+
+- 

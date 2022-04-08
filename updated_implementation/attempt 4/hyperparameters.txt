@@ -1,0 +1,17 @@
+Starting training session: 1
+Discount factor: 0.95
+Starting exploration rate: 0.5
+Exploration rate decay: 0.985
+Min exploration rate: 0.001
+Starting step size: 0.5
+Step size decay: 0.985
+Min step size: 0.1
+Buffer size: 20000
+Number of epochs of training: 5
+Batch size: 100
+Death penalty: -10
+Agent architecture: Agent(
+  (fc1): Linear(in_features=17, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=32, bias=True)
+  (output): Linear(in_features=32, out_features=5, bias=True)
+)

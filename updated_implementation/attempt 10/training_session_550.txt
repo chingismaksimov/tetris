@@ -1,0 +1,9 @@
+Total games played: 17531
+Number of games per training session: 31.874545454545455
+Total points: -1844100.0093295556
+Total lines cleared: 64
+Lines cleared per game: 0.003650675945468028
+Current exploration rate: 0.09578711119562627
+Current step size: 0.2883955325860681
+Curret height cost weight: 0.3325046384126845
+Current bumpiness cost weight: 0.3325046384126845

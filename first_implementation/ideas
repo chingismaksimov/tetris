@@ -1,0 +1,11 @@
+Unlike supervised learning problems, there are way more hyperparameters and other things to keep in mind when working on an RL problem. This project taught me a lot. First of all, if your agent does not show any signs of intelligent behaviour from the start, you can start troubleshooting and searching for the possible cause. In other words, do not waste time waiting for it to suddenly work everything out. Secondly, a lot of attention should be given to the following issues:
+
+- defining a good reward function. Tetris is a game where one cannot win. So, it makes sense to define some auxiliary reward function that can help the agent to navigate through the game.
+
+- pay attention to the structure of your NN. For example, for the game of Tetris, it makes sense to go without using max pooling layers. 
+
+- pay attention to your loss function. Do not train a NN with linear output using cross-entropy loss function (like I did). So, pay attention to the progress of your NN training.
+
+- be careful choosing your learning rate. It should not be too low as to make learning too time-consuming. At the same time, it should not be too high. Usually, in the rate 0.001.- 0.1.
+
+- pay close attention to the q-values that your NN outputs throughout the training process. It will give you a lot of hints about what is going on. 
